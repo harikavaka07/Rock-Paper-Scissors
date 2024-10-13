@@ -1,0 +1,121 @@
+:root{
+background: #D6A4B0; /* Dusty Rose */
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+body {
+    height: 45rem;
+    width: 45rem;
+    margin: 2rem auto;
+    background: #EAE8FF; /* Pale Lavender */
+    border-radius: 100rem; 
+    font-weight: bold;
+
+    box-shadow: 0px 0px 10px 20px #101010;
+}
+
+@media (hover:hover){
+    body:hover {
+        box-shadow: 0px 0px 10px 20px #201e1e;
+    }
+    .gamebtn:hover,  #getInfo:hover{
+        box-shadow: 10px 5px 15px 5px #000000;
+    }
+    .gamebtn:active {
+        box-shadow: 10px 5px 15px 5px #EAE8FF;
+        translate: 10px;
+    }
+    
+}
+
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 14rem;
+    height: 10rem;
+    margin: auto;
+    justify-content: center;
+}
+
+input {
+    font-size: 16px;
+    border: 0;
+    border-bottom: 5px solid #EAE8FF;
+    height: 25px;
+    outline: none;
+    background-color: #1e1a1a;
+    color:aliceblue;
+    padding: 5px;
+}
+@media (focus:focus){
+    input:focus {
+        box-shadow: 5px 5px 15px 5px #2a0707a2;
+    }
+    
+}
+
+#getInfo {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 16px;
+    width: 14rem;
+    height: 30px;
+    background-color: #242424;
+    color:#fff;
+    border: #202020 solid 5px;
+}
+
+.gameSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gamebtn {
+    height: 2em;
+    width: 10rem;
+    font-size: 20px;
+    margin: 0 2rem;
+    border: #EAE8FF solid 3px;
+    padding: 0;
+    background-color: #242424;
+    color: #fff;
+}
+
+.displaySection, .scores {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h4, h5 {
+    height: 30px;
+    width: 50rem;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.backgroundSection {
+    background-color: #272525;
+    box-shadow: 0px 10px 30px 20px #000000a2;
+    margin: 0 25px;
+    border-radius: 5px;
+}
+
+#winner {
+    margin-top: 40px;
+    text-align: center;
+}
